@@ -1,0 +1,90 @@
+.analytics-container {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 240px; /* Adjust margin to fit sidebar */
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .main-title h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 10px;
+    padding-right: 300px;
+  }
+  .main-title{
+    padding-right: 300px;
+  }
+  .main-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background: #b1c7d5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card h1 {
+    margin-top: 10px;
+    font-size: 32px;
+    color: #1F2937;
+  }
+  
+  .card_icon {
+    font-size: 24px;
+    color: #fd762f;
+    margin-left: 10px;
+  }
+  
+  .charts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  
+  .chart-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .chart {
+    width: 48%; /* Adjust the width to fit the two charts side by side */
+    height: 300px;
+  }
+  .download-btn {
+    background-color: #1F2937;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10PX;
+    margin-bottom: 35px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #7e7c80;
+  }

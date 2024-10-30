@@ -1,0 +1,124 @@
+.shop-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 750px;
+  width: 1250px;
+  background-color: #ffffff;
+}
+
+.shop-form {
+  background: #b1c7d5;
+  padding: 20px;
+  width: 800px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.form-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #060606;
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 48%;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:read-only {
+  background-color: #ffffff;
+}
+
+.shop-logo-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-image {
+  max-width: 150px;
+  height: auto;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 25%;
+  width: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #ff742f;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 600px) {
+  .shop-form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .form-fields {
+    flex-direction: column;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
